@@ -1,0 +1,7 @@
+We use the linear programming formulation as discussed in class.
+The A matrix consists of the probabilities of flows from the states.
+The reward is also given as input.
+The alpha vector consists of the probabilities of the start states.
+Here the 1st state has probability 1.0 and all the other states have 
+probability 0.
+Now on running the solver, we get values for X. We also see that the reward is 0.085 which is nearly equal to the output of the value iteration which is 0.083
